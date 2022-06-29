@@ -1,0 +1,34 @@
+#info {
+	background: #7bba75;
+	color: #8505f5;
+	text-align: center;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-ind{
+	margin: 20px;
+}
+
+.info-ind img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+@media (min-width:480px) {
+	.info-ind {
+		width: 40%;
+	}
+}
+
+@media (min-width:1024px) {
+	.info-pet {
+		width: auto;
+	}
+}
